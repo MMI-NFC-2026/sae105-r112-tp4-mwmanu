@@ -91,3 +91,8 @@ body {
   transform: translateY(-50%);
   transition: transform 0.3s;
 }
+
+/* Triangle pointé vers le bas quand ouvert */
+.accordeon > details[open] > summary::after {
+  transform: translateY(-50%) rotate(90deg);
+}
