@@ -44,3 +44,22 @@ body {
 .accordeon > details > div {
   padding: 0 1rem 1rem;
 }
+
+/* Accordéon ouvert */
+.accordeon > details[open] {
+  border-color: #0b6bcb;
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 15%);
+}
+
+.accordeon > details[open] > summary {
+  background-color: #0b6bcb;
+}
+
+.accordeon > details[open] > summary img {
+  height: 12rem;
+  filter: grayscale(0);
+}
+
+.accordeon > details[open] h3 {
+  color: #0b6bcb;
+}
