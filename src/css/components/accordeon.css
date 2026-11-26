@@ -63,3 +63,12 @@ body {
 .accordeon > details[open] h3 {
   color: #0b6bcb;
 }
+
+/* Suppression du triangle d'origine */
+.accordeon > details > summary {
+  list-style: none;
+}
+.accordeon > details > summary::marker,
+.accordeon > details > summary::-webkit-details-marker {
+  display: none;
+}
