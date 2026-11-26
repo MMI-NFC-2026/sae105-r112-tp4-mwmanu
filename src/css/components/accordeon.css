@@ -1,3 +1,22 @@
 /**
 * Accordeon
 */
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+.accordeon {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.accordeon > details {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #fff;
+}
